@@ -3,8 +3,7 @@
 @section('content')
 
 
-        <div class="hero" style="background-image: url({{ "images/vector.png" }})">
-
+        <div class="hero--business" style="background-image: url({{ "images/vector.png" }})">
 
              <header>
                 <nav>
@@ -45,10 +44,14 @@
                     <a href=""><img src="{{ asset('images/apple-store-badge.png') }}" alt=""></a>
                 </div>
 
-                <div class="divider"></div>
+        
 
                 <div class="devices-business">
-                    <img src="{{ asset('images/hands-business.png') }}" alt="">
+
+                    <img src="{{ asset('images/chart.png') }}" class="side-img" alt="">
+                    <img src="{{ asset('images/woman.png') }}" class="main-img" alt="">
+                    <img src="{{ asset('images/booking-card.png') }}" class="right-side-img" alt="">
+                    <img src="{{ asset('images/booking-card-2.png') }}" class="right-side-img-2" alt="">
                 </div>
             </div>
 
